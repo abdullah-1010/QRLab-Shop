@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
+
+  font-family: "Archivo", sans-serif;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+/* input[type="number"] {
+  
+  -moz-appearance: textfield;
+} */
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
+
+.pic-upload-cube {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  min-width: 76px;
+  min-height: 76px;
+  max-width: 200px;
+  max-height: 200px;
+  z-index: -1;
+  /* width: 50%;
+  height: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pic-upload-cube img {
+  width: 76px;
+  height: 76px;
+}
+
+.products-left {
+  margin-left: 12rem;
+}
+
+@media (max-width: 600px) {
+  .products-left {
+    margin: auto;
+  }
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: none !important;
+}
+
+.PhoneInputInput {
+  outline: none !important;
+}
