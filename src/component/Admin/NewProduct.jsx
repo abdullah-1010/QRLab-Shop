@@ -24,7 +24,7 @@ import InfoIcon from "@mui/icons-material/Info";
 
 import Navbar from "./Navbar";
 
-import useStyles from "../User/LoginFromStyle";
+import useStyles from "../User/Login1FromStyle";
 import {
   Avatar,
   TextField,
