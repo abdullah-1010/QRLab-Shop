@@ -19,6 +19,7 @@ function UserList() {
   const dispatch = useDispatch();
   const { error, users, loading } = useSelector((state) => state.allUsers);
   const { error: deleteError, isDeleted, message } = useSelector(
+
     (state) => state.profileData
   );
   const alert = useAlert();
